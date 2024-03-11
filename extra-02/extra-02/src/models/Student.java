@@ -23,6 +23,10 @@ public class Student
         return nepCode;
     }
 
+    public Major getMajor() {
+        return major;
+    }
+
     public String toString()
     {
         return "Student's name: " + lastName + " " + firstName + " Code: " + nepCode + " Maj: " + major;

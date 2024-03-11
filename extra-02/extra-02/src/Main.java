@@ -9,6 +9,7 @@ import models.Teacher;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
+import java.util.Arrays;
 
 
 public class Main {
@@ -16,11 +17,14 @@ public class Main {
 
         System.out.println("Students by Major: " + major);
 
-        for (Course value : course) {
-            if (value.getCourseID().equals(courseID)) {
-                for (int j = 0; j < value.numberOfEnrolledStudents; j++) {
-                    if (Course.enrolledStudents[j].major.equals(major)) {
-                        System.out.println(Course.enrolledStudents[j]);
+        for (int i = 0; i < course.length;++i) {
+            if (course[i].getCourseID().equals(courseID))
+            {
+                for (int j = 0; j < course[i].numberOfEnrolledStudents; j++)
+                {
+                    if (course[i].getStudent(j).getMajor().equals(major))
+                    {
+                        System.out.println(course[i].getStudent(j));
                     }
                 }
             }
@@ -74,24 +78,23 @@ public class Main {
         {
             String nepCode = scan.nextLine();
 
-            for (Course value : course) {
-                for (int j = 0; j < value.numberOfEnrolledStudents; ++j) {
-                    if (Course.enrolledStudents[j].getNepCode().equals(nepCode)) {
-                        for (int index = j; index < course[j].numberOfEnrolledStudents - 1; ++index) {
-                            Course.enrolledStudents[index] = Course.enrolledStudents[index + 1];
+            for (int i = 0; i < course.length; ++i) {
+                for (int j = 0; j < course[i].numberOfEnrolledStudents; ++j) {
+                    if (course[i].getStudent(j).getNepCode().equals(nepCode))
+                    {
+                        course[i].setStudent(j,null);
+
+                        for (int index = j; index < course[i].numberOfEnrolledStudents - 1; ++index)
+                        {
+                            course[i].setStudent(index,course[i].getStudent(index + 1));
                         }
 
-                        course[j].numberOfEnrolledStudents--;
+                        course[i].numberOfEnrolledStudents--;
                     }
                 }
-
-                System.out.println(value);
             }
         }
     } //megvan
-
-
-
 
 
 
@@ -174,10 +177,6 @@ public class Main {
             counterForStudents++;
         }
 
-        for(int i = 0; i < numberOfCourses;++i)
-        {
-            System.out.println(course[i] + "\n\n");
-        }
 
         //enrolledStudentsByMajor(Major.INFORMATION_SCIENCE, "OSX7G", course);
 
@@ -185,7 +184,12 @@ public class Main {
 
         //System.out.println(nrOfCoursesByDay(Course.DayOfWeek.FRIDAY,course));
 
-        //cancelEnrollments("/Users/macbook/Documents/INFO I . - második félév/OOP/extra-02/extra-02/cancellation.csv",course);;
+        cancelEnrollments("/Users/macbook/Documents/INFO I . - második félév/OOP/extra-02/extra-02/cancellation.csv",course);;
+
+        for(int i = 0; i < numberOfCourses; ++i)
+        {
+            System.out.println(course[i]);
+        }
 
 
 

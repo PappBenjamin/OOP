@@ -12,7 +12,7 @@ public class Course {
     private String courseID;
     private int numberOfCredits;
     public int numberOfEnrolledStudents = 0;
-    public static Student[] enrolledStudents = new Student[MAX_STUDENT];
+    private Student[] enrolledStudents = new Student[MAX_STUDENT];
     private DayOfWeek dayOfCourse;
 
     public Course(String courseID, int numberOfCredits, DayOfWeek dayOfCourse) {
@@ -32,8 +32,19 @@ public class Course {
         }
     }
 
+    public void setStudent(int index, Student student)
+    {
+        enrolledStudents[index] = student;
+    }
+
     public Teacher getTeacher() {
         return this.teacher;
+    }
+
+    public Student getStudent(int index){
+
+
+        return enrolledStudents[index];
     }
 
     public String getCourseID() {
