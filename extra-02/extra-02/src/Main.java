@@ -184,7 +184,7 @@ public class Main {
 
         //System.out.println(nrOfCoursesByDay(Course.DayOfWeek.FRIDAY,course));
 
-        cancelEnrollments("/Users/macbook/Documents/INFO I . - második félév/OOP/extra-02/extra-02/cancellation.csv",course);;
+        cancelEnrollments("/Users/macbook/Documents/INFO I . - második félév/OOP/extra-02/extra-02/cancellation.csv",course);
 
         for(int i = 0; i < numberOfCourses; ++i)
         {
