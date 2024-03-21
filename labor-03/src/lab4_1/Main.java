@@ -9,7 +9,6 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("labor03");
     }
-
     public static void readFilePrintItsLineNumber(String filename) {
         try (Scanner scanner = new Scanner(new File(filename))) {
             while (scanner.hasNextLine()) {
@@ -20,7 +19,6 @@ public class Main {
             e.printStackTrace();
         }
     }
-
     public static ArrayList<Person> readFromCSVfile(String filename) {
 
         ArrayList<Person> persons = new ArrayList<>();
