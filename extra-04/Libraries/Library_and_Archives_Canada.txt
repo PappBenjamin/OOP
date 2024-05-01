@@ -1,0 +1,12 @@
+The Library and Archives Canada library:
+	Address:  120 Metcalfe St Ottawa
+	Name: Library and Archives Canada
+	Books: 
+		1. The Odyssey by  Homer ( ID: 0)
+		1. Pride and Prejudice by  Jane Austen ( ID: 0)
+		1. The Lord of the Rings by  J.R.R. Tolkien ( ID: 0)
+		1. LIBRARY by  National Library of Australia ( ID: 0)
+		1. Heart of Darkness by  Joseph Conrad ( ID: 0)
+		1. Slaughterhouse-Five by  Kurt Vonnegut ( ID: 0)
+		1. Middlemarch by  George Eliot ( ID: 0)
+

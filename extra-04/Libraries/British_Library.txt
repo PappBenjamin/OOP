@@ -1,0 +1,8 @@
+The British Library library:
+	Address:  96 Euston Rd London
+	Name: British Library
+	Books: 
+		1. The Picture of Dorian Gray by  Oscar Wilde ( ID: 0)
+		1. Frankenstein by  Mary Shelley ( ID: 0)
+		1. Moby-Dick by  Herman Melville ( ID: 0)
+

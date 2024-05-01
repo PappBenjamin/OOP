@@ -1,0 +1,14 @@
+The Library of Congress library:
+	Address:  101 Independence Ave SE Washington D.C.
+	Name: Library of Congress
+	Books: 
+		1. Crime and Punishment by  Fyodor Dostoevsky ( ID: 0)
+		1. Beloved by  Toni Morrison ( ID: 0)
+		1. The Brothers Karamazov by  Fyodor Dostoevsky ( ID: 0)
+		1. The Hitchhiker's Guide to the Galaxy by  Douglas Adams ( ID: 0)
+		1. Wuthering Heights by  Emily Bronte ( ID: 0)
+		1. Heart of Darkness by  Joseph Conrad ( ID: 0)
+		1. Slaughterhouse-Five by  Kurt Vonnegut ( ID: 0)
+		1. Middlemarch by  George Eliot ( ID: 0)
+		1. Jane Eyre by  Charlotte Bronte ( ID: 0)
+

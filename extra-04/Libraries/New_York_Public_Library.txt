@@ -1,0 +1,12 @@
+The New York Public Library library:
+	Address: 5th Ave and 42nd St New York
+	Name: New York Public Library
+	Books: 
+		1. To Kill a Mockingbird by  Harper Lee ( ID: 0)
+		1. 1984 by  George Orwell ( ID: 0)
+		1. The Catcher in the Rye by  J.D. Salinger ( ID: 0)
+		1. Pride and Prejudice by  Jane Austen ( ID: 0)
+		1. The Lord of the Rings by  J.R.R. Tolkien ( ID: 0)
+		1. Harry Potter and the Philosopher's Stone by  J.K. Rowling ( ID: 0)
+		1. One Hundred Years of Solitude by  Gabriel Garcia Marquez ( ID: 0)
+

@@ -1,0 +1,7 @@
+The Knowledge library:
+	Address: New York 476 5th Avenue
+	Name: Knowledge
+	Books: 
+		1. The Great Gatsby by F. Scott Fitzgerald ( ID: 0)
+		1. Az arany ember by Jókai Mór ( ID: 0)
+
