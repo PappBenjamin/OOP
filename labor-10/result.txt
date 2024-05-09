@@ -1,3 +1,4 @@
-Time in milisec: (data10) 16
-Time in milisec: (data1000) 13
-Time in milisec: (data10000) 37
+Filename: data10.txt  Updates: update10.txt  Time in milisec: 16
+Filename: data1000.txt  Updates: update1000.txt  Time in milisec: 12
+Filename: data10000.txt  Updates: update10000.txt  Time in milisec: 34
+Filename: data100000.txt  Updates: update100000.txt  Time in milisec: 139
