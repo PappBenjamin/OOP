@@ -1,0 +1,3 @@
+Time in milisec: (data10) 16
+Time in milisec: (data1000) 13
+Time in milisec: (data10000) 37
